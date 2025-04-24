@@ -1,11 +1,12 @@
 import './App.css'
-import { Navbar } from './components/index'
+import { Navbar, Button } from './components/index'
 
 function App() {
 
   return (
     <>
       <Navbar/>
+      <Button text="Interactive media designer"/>
     </>
   )
 }
