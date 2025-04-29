@@ -17,7 +17,7 @@ export function Navbar(){
           });
         },
         {
-          threshold: 0.5, // 50% de visibilidad para activarse
+          threshold: 0.5,
         }
       );
     
@@ -41,7 +41,7 @@ export function Navbar(){
                 </ul>
             </nav>
             <div className="navbar-profile">
-                <img src="../../../public/images/me-img.webp"/>
+                <img src="/images/me-img.webp"/>
             </div>
         </header>
     )

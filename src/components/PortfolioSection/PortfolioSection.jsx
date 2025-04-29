@@ -9,8 +9,8 @@ const projects = [
     {
         title: 'Conecta Digital : Bancoldex',
         description:'Conecta Digital is Bancoldex’s platform that supports entrepreneurs with financial tools and educational resources.  Our challenges is to redesign it to deliver a modern, functional and engaging experience tailored to the needs of SMEs in the digital era.',
-        img: '../../../public/images/conecta-img.webp',
-        img2: '../../../public/images/conecta-img2.webp',
+        img: '/images/conecta-img.webp',
+        img2: '/images/conecta-img2.webp',
         tag1: 'UI design',
         tag2: 'UX design',
         link:'https://www.behance.net/gallery/213372503/Conecta-Digital-UX-UI'
@@ -18,8 +18,8 @@ const projects = [
     {
         title: 'TEApoyamos',
         description: 'This work is based on a collaborative project carried out by a design class of ICESI Universty, wich was challenged to work with the TEApoyamos Foundation (a foundation for individuals with autism spectrum disorders) to offer their design expertise and collaborate on creating a proposal that can help the foundation and its affiliates.',
-        img: '../../../public/images/teapoyamos-img.webp',
-        img2: '../../../public/images/teapoyamos-img2.webp',
+        img: '/images/teapoyamos-img.webp',
+        img2: '/images/teapoyamos-img2.webp',
         tag1: 'UI | UX design',
         tag2: 'FrontEnd development',
         link:'https://www.behance.net/gallery/172971959/TEApoyamos'
@@ -27,8 +27,8 @@ const projects = [
     {
         title: 'Zone',
         description: 'Zone is an app designed to help users enroll in recreational activities, recommending options based on their interests and proximity to their location. Perfect for ensuring your kids learn and enjoy new experiences.',
-        img: '../../../public/images/zone-img.webp',
-        img2: '../../../public/images/zone-img2.webp',
+        img: '/images/zone-img.webp',
+        img2: '/images/zone-img2.webp',
         tag1: 'UX design',
         tag2: 'UI design',
         link:'https://www.behance.net/gallery/183054175/Sports-App-UXUI-Case-Study'
@@ -36,8 +36,8 @@ const projects = [
     {
         title: 'Mourse',
         description: 'Developing a system for effective Morse code learning, based on constant repetition and periodic assesment. It utilizes an intuitive three-button controller that allows the user to generate Morse code, as well as confirm inputs. The approach focuses on repetitive practice sessions combined with regular assessments to measure progress and reiforce weak areas.',
-        img: '../../../public/images/mourse-img.webp',
-        img2: '../../../public/images/mourse-img2.webp',
+        img: '/images/mourse-img.webp',
+        img2: '/images/mourse-img2.webp',
         tag1: 'UX design',
         tag2: 'UI design',
         link:'https://www.behance.net/gallery/197905511/MOURSE-UX-CASE'
