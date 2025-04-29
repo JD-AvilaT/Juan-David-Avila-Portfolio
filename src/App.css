@@ -9,7 +9,7 @@
   min-width: 1280px;
   margin: 0 auto;
   text-align: center;
-  gap: 70px;
+  gap: 100px;
 }
 
 html {
@@ -17,5 +17,5 @@ html {
 }
 
 section {
-  scroll-margin-top: 150px; /* Esta es la clave */
+  scroll-margin-top: 150px;
 }

@@ -5,8 +5,11 @@
     align-items: center;
     color: var(--color-b200);
     font-size: 32px;
+    text-align: left;
+    gap: 5px;
 }
 
 .tool-item p{
     width: 165px;
+    width: auto;
 }

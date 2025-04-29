@@ -26,7 +26,7 @@ const projects = [
     },
     {
         title: 'Zone',
-        description: 'Zone is an app designed to help users enroll in recreational activities, recommending options based on their interests and proximity to their location. Perfect for ensuring your kids learn and enjoy new experiences.',
+        description: 'Zone is an app designed to help users enroll in recreational activities, recommending options based on their interests and proximity to their location. Perfect for ensuring your kids learning and enjoy new experiences.',
         img: '/images/zone-img.webp',
         img2: '/images/zone-img2.webp',
         tag1: 'UX design',
