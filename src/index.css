@@ -4,6 +4,6 @@
 }
 
 body {
-  background-image: url('./assets/images/background-img.png');
+  background-image: url('../public/images/background-img.png');
   background-repeat: repeat;
 }

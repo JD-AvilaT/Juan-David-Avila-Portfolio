@@ -1,0 +1,12 @@
+.tool-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-b200);
+    font-size: 32px;
+}
+
+.tool-item p{
+    width: 165px;
+}

@@ -13,11 +13,11 @@
   
     /* ⚫ Neutral Colors */
     --color-white: #FFFFFF;
+    --color-black: #0F0F15;
     --color-g300: #CFCFD0;
     --color-g400: #9F9FA1;
     --color-g500: #6F6F73;
     --color-g600: #3F3F44;
-    --color-black: #0F0F15;
   
     /* 🟠 Semantic Colors */
     --color-danger: #FF6868;

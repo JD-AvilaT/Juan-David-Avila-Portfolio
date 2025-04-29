@@ -1,0 +1,18 @@
+.process{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--color-black);
+    border-radius: 50px;
+}
+
+.process p{
+    color: var(--color-white);
+    font-weight: medium;
+}
+
+.process svg{
+    color: var(--color-b500);
+}

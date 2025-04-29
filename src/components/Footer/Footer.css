@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 15px;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-black);
+    border-radius: 50px;
+    padding: 10px 100px;
+}
+
+.footer p{
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-name{
+    font-weight: bold;
+}

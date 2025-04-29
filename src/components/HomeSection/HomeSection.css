@@ -1,0 +1,81 @@
+.home-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    margin: 0;
+    width: fit-content;
+    text-align: left;
+}
+
+.title h1{
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0;
+    width: 390px;
+}
+.title-tags{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.description-tags{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.tools{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    gap: 30px;
+    position: relative;
+    width: 1000px;
+}
+
+.tools:hover .tools-wrapper{
+    animation-play-state: paused;
+}
+
+.tools-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    animation: 35s infinite-scroll infinite linear;
+}
+
+@keyframes infinite-scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}

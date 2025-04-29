@@ -1,3 +1,13 @@
 export { Navbar } from "./Navbar/Navbar";
 export { Tag } from "./Tag/Tag";
 export { Button } from "./Button/Button";
+export { ProfileCard } from "./ProfileCard/ProfileCard";
+export { HomeSection } from "./HomeSection/HomeSection";
+export { ToolItem } from "./ToolItem/ToolItem";
+export { AboutMeSection } from "./AboutMeSection/AboutMeSection";
+export { Process } from "./Process/Process";
+export { ArrowButton } from "./ArrowButton/ArrowButton";
+export { PortfolioSection } from "./PortfolioSection/PortfolioSection";
+export { ExperienceSection } from "./ExperienceSection/ExperienceSection";
+export { ExperienceItem } from "./ExperienceItem/ExperienceItem";
+export { Footer } from "./Footer/Footer";

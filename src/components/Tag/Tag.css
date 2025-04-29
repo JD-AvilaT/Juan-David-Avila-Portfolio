@@ -10,6 +10,7 @@
     border: 2px solid var(--color-b500);
     border-radius: 50px;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .tag:hover{

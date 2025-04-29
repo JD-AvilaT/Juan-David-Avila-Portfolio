@@ -1,12 +1,17 @@
 import './App.css'
-import { Navbar, Button } from './components/index'
+import { Navbar, HomeSection, AboutMeSection, Process, PortfolioSection, ExperienceSection, Footer } from './components/index'
 
 function App() {
 
   return (
     <>
       <Navbar/>
-      <Button text="Interactive media designer"/>
+      <HomeSection uid="home"/>
+      <AboutMeSection uid="aboutme"/>
+      <Process/>
+      <PortfolioSection uid="portfolio"/>
+      <ExperienceSection uid="experience"/>
+      <Footer/>
     </>
   )
 }
