@@ -1,5 +1,6 @@
 export { Navbar } from "./Navbar/Navbar";
 export { Tag } from "./Tag/Tag";
+export { ToggleTheme } from "./ToggleTheme/ToggleTheme";
 export { Button } from "./Button/Button";
 export { ProfileCard } from "./ProfileCard/ProfileCard";
 export { HomeSection } from "./HomeSection/HomeSection";

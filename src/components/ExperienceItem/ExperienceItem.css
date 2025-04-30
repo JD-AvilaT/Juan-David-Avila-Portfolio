@@ -24,6 +24,7 @@
 
 .experience-brand-name, .experience-job-title{
     font-weight: bold;
+    color: var(--color-black);
 }
 
 .experience-job-description, .experience-date{

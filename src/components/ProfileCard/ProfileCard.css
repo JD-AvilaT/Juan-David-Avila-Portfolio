@@ -39,18 +39,12 @@
     background-image: url('../../../public/images/venice-img.webp');
 }
 
-
-.about-me-card .profile-card-label{
-    background-color: var(--color-white);
-    color: var(--color-black);
-}
-
 .about-me-card .profile-card-content{
     width: 275px;
     height: 370px;
 }
 
 .about-me-card .profile-card-label{
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--color-black-toblue);
+    color: var(--color-white-wdark);
 }

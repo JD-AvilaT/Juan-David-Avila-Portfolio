@@ -1,0 +1,55 @@
+.toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .moon-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--color-black);
+  }
+  
+  .toggle-theme {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .toggle-theme input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-black);
+    border-radius: 34px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.3s;
+  }
+  
+  /* bolita negra */
+  .slider::before {
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--color-black);
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .toggle-theme input:checked + .slider::before {
+    transform: translateX(26px);
+  }
+  

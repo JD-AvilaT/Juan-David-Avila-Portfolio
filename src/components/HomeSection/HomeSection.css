@@ -23,6 +23,7 @@
     font-weight: bold;
     margin: 0;
     width: 390px;
+    color: var(--color-black);
 }
 .title-tags{
     display: flex;
