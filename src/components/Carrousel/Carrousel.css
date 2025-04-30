@@ -7,24 +7,42 @@
     gap: 100px;
   }
   
+.tools::before, .tools::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.tools::before {
+  left: 0;
+  background: linear-gradient(to right, var(--color-background) 0%, transparent 100%);
+}
+
+.tools::after {
+  right: 0;
+  background: linear-gradient(to left, var(--color-background) 0%, transparent 100%);
+}
+
   .tools-wrapper {
     display: flex;
     flex-shrink: 0;
-    animation: scroll 35s linear infinite;
+    animation: scroll 20s linear infinite;
     gap: 100px;
   }
   
-  /* Cuando pasas el mouse, pausa */
   .tools:hover .tools-wrapper {
     animation-play-state: paused;
   }
   
-  /* Nuevo keyframes */
   @keyframes scroll {
     0% {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-100%); /* 👈 solo movemos -50% porque tienes el contenido duplicado */
+      transform: translateX(-100%);
     }
-  }
+}
