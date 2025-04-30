@@ -39,10 +39,12 @@
 
 .footer-email:hover {
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
   
   .footer-email:hover p,
   .footer-email:hover .copy-icon {
     color: var(--color-b500-wdark);
     fill: var(--color-b500-wdark);
+    transition: all 0.3s ease-in-out;
   }
