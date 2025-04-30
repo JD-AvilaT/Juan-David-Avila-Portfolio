@@ -22,7 +22,7 @@ header{
     width: fit-content;
 }
 
-.logo{
+.navbar-logo-svg{
     fill: var(--color-b500);
     width: 100px;
     height: 40px;

@@ -15,7 +15,7 @@ export function AboutMeSection( {uid} ) {
                 <Logo className='logo'/>
             </div>
             <div className='about-me-down'>
-                <ProfileCard showButton={true} showLabel={true} variantImg="about-me-card"/>
+                <ProfileCard  label='Interactive media designer' variant="about-me-card" showButton={false} showLabel={true} variantImg="about-me-card"/>
                 <div className='about-me-down-description'>
                     <p>
                     {"Hi! I'm Juan David Ávila Tamayo, a 21-year-old Interactive Media Design student at ICESI University. I’m passionate about UI/UX design, focused on creating intuitive, functional, and visually appealing digital experiences."}</p>

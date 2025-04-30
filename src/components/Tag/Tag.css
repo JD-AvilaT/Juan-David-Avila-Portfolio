@@ -17,3 +17,8 @@
     background-color: var(--color-b200);
     cursor: pointer;
 }
+
+.about-me-tag{
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+}

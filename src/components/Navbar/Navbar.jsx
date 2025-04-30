@@ -29,7 +29,7 @@ export function Navbar(){
         <header>
             <div className='navbar-logo'>
                 <a href="">
-                    <Logo className='logo' alt='Logo'/>
+                    <Logo className='navbar-logo-svg' alt='Logo'/>
                 </a>
             </div>
             <nav className='navbar-links'>

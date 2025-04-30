@@ -3,6 +3,7 @@ export { Tag } from "./Tag/Tag";
 export { Button } from "./Button/Button";
 export { ProfileCard } from "./ProfileCard/ProfileCard";
 export { HomeSection } from "./HomeSection/HomeSection";
+export { Carrousel } from "./Carrousel/Carrousel";
 export { ToolItem } from "./ToolItem/ToolItem";
 export { AboutMeSection } from "./AboutMeSection/AboutMeSection";
 export { Process } from "./Process/Process";

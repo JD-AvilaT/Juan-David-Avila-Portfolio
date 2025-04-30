@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 50px 0;
+    padding: 40px 0 0 0;
 }
 
 .title{
@@ -47,34 +47,3 @@
     align-items: start;
     gap: 10px;
 }
-
-.tools {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    width: 1000px;
-    height: 100px;
-    gap: 100px;
-  }
-  
-  .tools-wrapper {
-    display: flex;
-    flex-shrink: 0;
-    animation: scroll 35s linear infinite;
-    gap: 100px;
-  }
-  
-  /* Cuando pasas el mouse, pausa */
-  .tools:hover .tools-wrapper {
-    animation-play-state: paused;
-  }
-  
-  /* Nuevo keyframes */
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%); /* 👈 solo movemos -50% porque tienes el contenido duplicado */
-    }
-  }

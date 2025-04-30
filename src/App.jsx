@@ -1,5 +1,5 @@
 import './App.css'
-import { Navbar, HomeSection, AboutMeSection, Process, PortfolioSection, ExperienceSection, Footer } from './components/index'
+import { Navbar, HomeSection, Carrousel, AboutMeSection, Process, PortfolioSection, ExperienceSection, Footer } from './components/index'
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
     <>
       <Navbar/>
       <HomeSection uid="home"/>
+      <Carrousel/>
       <AboutMeSection uid="aboutme"/>
       <Process/>
       <PortfolioSection uid="portfolio"/>
