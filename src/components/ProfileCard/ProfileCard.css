@@ -25,7 +25,7 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    background-image: url('../../../public/images/me-smiling-img.webp');
+    background-image: var(--img);
     background-size: cover;
     background-position: center;
     width: 375px;

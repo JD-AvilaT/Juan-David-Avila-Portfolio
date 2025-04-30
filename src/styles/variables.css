@@ -30,6 +30,7 @@
   
     /* Tipografía */
     --font-primary: 'Inter', sans-serif;
+    --img: url('/images/me-smiling-img.webp')
   }
   
   .dark {
@@ -64,4 +65,5 @@
   
     /* Tipografía */
     --font-primary: 'Inter', sans-serif;
+    --img: url('/images/me-img.webp')
   }
