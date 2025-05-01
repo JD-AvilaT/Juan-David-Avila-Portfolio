@@ -4,12 +4,13 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    background-color: var(--color-black);
+    background-color: var(--color-white);
     border-radius: 50px;
+    border: 2px solid var(--color-black);
 }
 
 .process p{
-    color: var(--color-white);
+    color: var(--color-black);
     font-weight: medium;
 }
 
