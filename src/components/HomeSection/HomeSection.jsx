@@ -9,8 +9,8 @@ export function HomeSection({uid}) {
         <section className="home-section" id={uid}>
             <div className='title'>
                 <div className='title-tags'>
-                    <Tag text="UI|UX designer"/>
-                    <Tag text="FrontEnd developer"/>
+                    <Tag variant="tag-home-section" text="UI|UX designer"/>
+                    <Tag variant="tag-home-section" text="FrontEnd developer"/>
                 </div>
                 <h1>JUAN DAVID AVILA T</h1>
             </div>

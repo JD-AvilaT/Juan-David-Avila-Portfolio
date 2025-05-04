@@ -13,6 +13,7 @@
     text-decoration: none;
 }
 
+
 .tag:hover{
     background-color: var(--color-b200);
     cursor: pointer;
@@ -21,4 +22,12 @@
 .about-me-tag{
     border: 2px solid var(--color-white);
     color: var(--color-white);
+}
+
+.tag.tag-home-section:hover{
+    background-color: transparent;
+}
+
+.tag.tag-home-section{
+    pointer-events: none;
 }
