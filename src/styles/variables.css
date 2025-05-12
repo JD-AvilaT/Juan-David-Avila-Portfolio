@@ -29,7 +29,7 @@
     --color-warning: #FFA251;
   
     /* Tipografía */
-    --font-primary: 'Inter', sans-serif;
+    --font-primary: 'Poppins', sans-serif;
     --img: url('/images/me-smiling-img.webp')
   }
   
@@ -64,6 +64,6 @@
     --color-warning: #FFA251;
   
     /* Tipografía */
-    --font-primary: 'Inter', sans-serif;
+    --font-primary: 'Poppins', sans-serif;
     --img: url('/images/me-img.webp')
   }

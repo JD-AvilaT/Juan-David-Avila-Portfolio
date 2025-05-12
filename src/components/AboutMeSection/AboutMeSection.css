@@ -7,7 +7,7 @@
     padding: 50px;
     border-radius: 20px;
     background-color: var(--color-background);
-    background-image: url('/images/background-img.png');
+    /* background-image: url('/images/background-img.png'); */
   background-repeat: repeat;
 }
 
