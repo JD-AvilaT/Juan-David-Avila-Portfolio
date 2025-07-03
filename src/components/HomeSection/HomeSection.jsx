@@ -17,7 +17,7 @@ export function HomeSection({uid}) {
             <div className='description'>
                 <ProfileCard label='ICESI University' showLabel={true} showButton={true}/>
                 <div className='description-tags'>
-                    <Tag showIcon={true} icon={DownloadIcon} text="Download my CV" link="/cv/CurriculumVitae-english.pdf"/>
+                    <Tag showIcon={true} icon={DownloadIcon} text="Download my CV" link="/cv/CV-JuanDavidAvila.pdf"/>
                     <Tag showIcon={true} icon={LinkedIn} text="See my LinkedIn" link="https://www.linkedin.com/in/juandavidavilat/"/>
                     <Tag showIcon={true} icon={Behance} text="See my Behance" link="https://www.behance.net/4e077981"/>
                 </div>
