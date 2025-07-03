@@ -41,7 +41,16 @@ const projects = [
         tag1: 'UX design',
         tag2: 'UI design',
         link:'https://www.behance.net/gallery/197905511/MOURSE-UX-CASE'
-      },
+    },
+    {
+        title: 'Capture',
+        description: 'Developing an application to help users track their carbon footprint in real time, based on the actions they perform throughout the day. The system estimates CO2 emissions from activities like commuting, electricity usage, and food choices, offering instant feedback and daily summaries. By visualizing the environmental impact of everyday decisions, the app promotes awareness and encourages more sustainable habits through data-driven insights.',
+        img: '/images/capture-img.webp',
+        img2: '/images/capture-img2.webp',
+        tag1: 'UX design',
+        tag2: 'UI design',
+        link:'https://www.behance.net/gallery/200208063/UX-Case-Study-CAPTURE-CO2'
+    },
 ];
 
 export function PortfolioSection({uid}) {
