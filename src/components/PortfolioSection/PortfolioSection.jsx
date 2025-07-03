@@ -1,5 +1,5 @@
 import './PortfolioSection.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ArrowButton, Tag } from '../index';
 import ArrowLeft from '../../../public/icons/arrow-left.svg?react';
 import ArrowRight from '../../../public/icons/arrow-right.svg?react';
@@ -53,10 +53,19 @@ const projects = [
     },
 ];
 
-export function PortfolioSection({uid}) {
+export function PortfolioSection({ uid }) {
     const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
     const [isExiting, setIsExiting] = useState(false);
     const [isAnimating, setIsAnimating] = useState(true);
+
+    useEffect(() => {
+        projects.forEach(project => {
+            const img1 = new window.Image();
+            img1.src = project.img;
+            const img2 = new window.Image();
+            img2.src = project.img2;
+        });
+    }, []);
 
     const handleNext = () => {
         setIsExiting(true);
